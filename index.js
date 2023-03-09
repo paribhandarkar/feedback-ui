@@ -16,6 +16,8 @@ ratingEls.forEach((ratingEl) => {
   });
 });
 
+// The event is used to listen for a click on the rating element and trigger a function when the click occurs. The event object contains information about the event that occurred, such as which element was clicked and any other relevant data.
+
 function removeActive() {
   ratingEls.forEach((ratingEl) => {
     ratingEl.classList.remove("active");
